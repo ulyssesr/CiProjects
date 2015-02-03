@@ -1,0 +1,21 @@
+html { min-height:100%; margin-bottom:1px;}
+html { overflow:-moz-scrollbars-vertical !important;}
+body {font-family:'Open Sans',sans-serif; font-size:12px;}
+h2{font-family:'Englebert',sans-serif;font-size:64px;color:purple;}
+h2 a{text-decoration:none;}
+#main {margin-left:auto;margin-right:auto;text-align:center;}
+table {margin-left:auto;margin-right:auto;text-align:left;}
+table.calendar {margin:auto; border-collapse:collapse;text-align:left;}
+table.list td {margin:0 5px;padding:0 3px;border-bottom:1px solid #f7f7f7;}
+table.list tr:hover {background-color:#eee;}
+.calendar .days td {width:130px; height:70px; padding:4px; border:1px solid #999; vertical-align:top; background-color:#f7f7f7;}
+.calendar .days td:hover {background-color:#FFF;}
+.calendar .highlight {font-size:18px;font-weight:bold;color:purple;}
+.calendar th {font-size:16px; color:purple; padding:15px;text-align:center;}
+a {color:purple; text-decoration: none;}
+a:hover { color:purple ;text-decoration: underline;}
+p {text-align:center;}
+.content{color:purple;}
+.arrows a {font-size:16px;}
+.title {font-size:24px;}
+.title span {font-size:32px;}
