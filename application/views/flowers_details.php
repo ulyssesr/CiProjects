@@ -21,9 +21,9 @@
 <?php endforeach; ?>
 </table>
 <p><?php if ($this->ion_auth->logged_in()) : 
-echo 'Thank you for your service to the congregation.<br/>';
-echo 'If for any reason, you are unable to provide flowers on your schedule date,<br/>';
-echo 'please contact Aurora Ronquillo at Home: 510-870-0307 or Mobile: 510-304-6785.<br/>';
+echo 'Thank you for your service.<br/>';
+echo 'If you are unable to bring flowers on your scheduled date,<br/>';
+echo 'please contact Aurora Ronquillo at 510-304-6785.<br/>';
 echo '<p>The flower schedule is available online at: <a href="http://uly.me/ci/flowers">http://uly.me/ci/flowers</a>.</p>';
 endif; ?></p>
 </div>
