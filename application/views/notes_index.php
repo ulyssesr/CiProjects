@@ -2,7 +2,7 @@
 <?php foreach($query as $item):?>
 <article>
 <h3><?= anchor('notes/view/'.$item->id.'/'.url_title($item->filename,'dash',true),ucwords($item->filename));?></h3>
-<p><small class="muted">
+<small class="muted">
 <?php echo date('F d, Y \a\t g:i a. ',$item->published); ?>
 <?php 
 if ($item->comments == 0) : 
@@ -14,7 +14,7 @@ else:
 endif;
 ?>
 <?php if ($item->status == 'private'): echo '[ private ]'; endif; ?>
-</small></p>
+</small>
 <?php echo '<p>'.$item->content.'</p>'; ?>
 </article>
 <?php endforeach;?>
