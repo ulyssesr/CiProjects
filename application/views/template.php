@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title><?=$title?> &mdash; Uly5535.com &mdash; Ulysses Ronquillo</title>
+<title><?=$title?> &mdash; uly.me &mdash; Ulysses Ronquillo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link href="<?=base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet" media="screen"/>
 <link href="<?=base_url('assets/css/bootstrap-responsive.css');?>" rel="stylesheet"/>
 <link href="<?=base_url('assets/css/style.css');?>" rel="stylesheet"/>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
@@ -28,7 +27,7 @@ $(function() { $( "#enddate" ).datepicker({dateFormat: 'yy-mm-dd'});});
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="brand" href="<?=base_url('');?>">Uly5535.com</a>
+<a class="brand" href="<?=base_url('');?>">Uly.me</a>
 <div class="nav-collapse collapse">
 <ul class="nav">
 <li <?php if($nav=='links'):echo 'class="active"';endif;?>><a href="<?=base_url('links');?>">Links</a></li>

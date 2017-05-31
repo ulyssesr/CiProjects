@@ -7,12 +7,10 @@
 <p>
 <small class="muted"><?php echo date('F d, Y \a\t g:i a',$item->published);?>. 
 <?php foreach($numbers as $number):;?>
-<!--
 <?php if ($number->numbers==0) : echo '0 comments.';?>
 <?php elseif($number->numbers==1) : echo '1 comment.';?>
 <?php else : echo $number->numbers. ' comments.';?>
 <?php endif;?>
--->
 <?php endforeach;?>
 <?php if ($item->status == 'private'):?> [ private ]<?php endif;?>
 <?php if (!$this->ion_auth->logged_in()) : else: ?>
@@ -22,7 +20,6 @@
 </small>
 </p>
 <?=htmlspecialchars_decode($item->content);?>
-<!--
 <p>
 <small>
 <?php foreach($numbers as $number):;?>
@@ -73,5 +70,4 @@ $comment = array('name'=>'comment','value'=>'','rows'=>'3','cols'=>'120','class'
 </div>
 </div>
 <?=form_close();?>
--->
 </div>
